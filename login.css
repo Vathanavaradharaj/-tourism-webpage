@@ -1,0 +1,83 @@
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: url(https://printawallpaper.com/wp-content/uploads/2020/07/india_vector_detail.jpg) no-repeat;
+            background-size: cover;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 100vh;
+        }
+        .log {
+            position: relative;
+           
+            width: 25%;
+            border-radius: 5%;
+            padding: 3%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .log-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(239, 148, 103, 0.8); /* Semi-transparent background */
+            border-radius: 5%;
+            z-index: -1;
+        }
+        .label {
+            text-align: center;
+            padding: 2% 3%;
+            font-size: 250%;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #value {
+            padding: 2% 2%;
+        }
+        .num {
+            font-size: 150%;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        #value input {
+            height: 40px;
+            width: 100%;
+            font-size: 100%;
+            outline: none;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .pass {
+            margin-top: 5%;
+            font-size: 150%;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        button {
+            margin: 4.5% 0 3% 0;
+            padding: 2%;
+            height: 40px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 100%;
+            font-weight: bold;
+            color: aliceblue;
+            background-color: black;
+        }
+        #eerror, #perror {
+            margin-top: 2%;
+            width: 100%;
+            font-size: 100%;
+            color: red;
+            background: rgba(255, 0, 0, 0.11);
+            text-align: center;
+            padding: 2% 3%;
+            border-radius: 5%;
+            display: none;
+        }
